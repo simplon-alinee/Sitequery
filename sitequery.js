@@ -19,7 +19,20 @@ function jsddm_canceltimer()
       closetimer = null;}}
 
 $(document).ready(function()
-{  $('#jsddm > li').bind('mouseover', jsddm_open)
+
+{ 
+	
+ $('#jsddm > li').bind('mouseover', jsddm_open)
    $('#jsddm > li').bind('mouseout',  jsddm_timer)});
 
 document.onclick = jsddm_close;
+
+
+/*diapo*/
+  $(function(){
+     setInterval(function(){
+        $(".slideshow ul").animate({marginLeft:-550},800,function(){
+           $(this).css({marginLeft:0}).find("li:last").after($(this).find("li:first"));
+        })
+     }, 3900);
+  });

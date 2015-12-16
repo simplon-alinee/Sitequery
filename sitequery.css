@@ -1,11 +1,11 @@
 body{
 	background: url(back.png) repeat;
-
+margin:0 0 0 0;
 }
 
 header {
 width:100%;
-margin-left: 0%;
+
 }
 
 p{
@@ -14,12 +14,12 @@ p{
 }
 #jsddm
 {	margin: 0;
-	padding: 0}
+	padding: 0;}
 	
 	#jsddm li
 	{	float: left;
 		list-style: none;
-		font: 12px Tahoma, Arial}
+		font: 12px Tahoma, Arial;}
 
 	#jsddm li a
 	{	display: block;
@@ -30,26 +30,50 @@ p{
 		width: 245px;
 		color: #EAFFED;
 		border-radius: 10px;
-		white-space: nowrap}
+		white-space: nowrap;}
 
 	#jsddm li a:hover
-	{	background: #BDD73E}
+	{	background: #BDD73E;}
 		
 		#jsddm li ul
 		{	margin: 0;
 			padding: 0;
 			position: absolute;
 			visibility: hidden;
-			border-top: 1px solid white}
+			border-top: 1px solid white;}
 		
 		#jsddm li ul li
 		{	float: none;
-			display: inline}
+			display: inline;}
 		
 		#jsddm li ul li a
 		{	width: auto;
-			background: #068070}
+			background: #068070;}
 		
 		#jsddm li ul li a:hover
-		{	background: #6AB035}
+		{	background: #6AB035;}
  
+
+
+
+/*diapo*/
+
+
+.slideshow {
+  width: 550px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 10px;
+  border-color: #068070;
+;
+   margin-left:30%;
+}
+.slideshow ul {
+  width: 500%;
+  height: 200px;
+  padding:0; margin:0;
+  list-style: none;
+}
+  .slideshow li {
+  float: left;
+}
